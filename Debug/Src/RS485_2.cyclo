@@ -1,0 +1,4 @@
+RS485_2.c:36:6:USART2_IRQ_Function	11
+RS485_2.c:93:6:GSen485_2_Proc	10
+RS485_2.c:171:6:SendChar2	3
+RS485_2.c:192:6:mprintf2	4

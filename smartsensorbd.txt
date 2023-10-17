@@ -1,0 +1,128 @@
+Configuration	smartsensorbd
+STM32CubeMX 	6.7.0
+Date	05/25/2023
+MCU	STM32F030R8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN6	ADC_IN6	PA6
+ADC	IN7	ADC_IN7	PA7
+ADC	IN8	ADC_IN8	PB0
+ADC	IN9	ADC_IN9	PB1
+ADC	IN10	ADC_IN10	PC0
+ADC	IN14	ADC_IN14	PC4
+ADC	IN15	ADC_IN15	PC5
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART1	Hardware Flow Control (RS485)	USART1_DE	PA12
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+USART2	Hardware Flow Control (RS485)	USART2_DE	PA1
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+8	PC0	ADC_IN10	
+15	PA1	USART2_DE	
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+22	PA6	ADC_IN6	
+23	PA7	ADC_IN7	
+24	PC4	ADC_IN14	
+25	PC5	ADC_IN15	
+26	PB0	ADC_IN8	
+27	PB1	ADC_IN9	
+42	PA9	USART1_TX	
+43	PA10	USART1_RX	
+45	PA12	USART1_DE	
+46	PA13	SYS_SWDIO	
+49	PA14	SYS_SWCLK	
+50	PA15	GPIO_Output	
+51	PC10	GPIO_Output	
+52	PC11	GPIO_Output	
+53	PC12	GPIO_Input	
+54	PD2	GPIO_Input	
+55	PB3	GPIO_Input	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN6	ADC_IN6	PA6
+ADC	IN7	ADC_IN7	PA7
+ADC	IN8	ADC_IN8	PB0
+ADC	IN9	ADC_IN9	PB1
+ADC	IN10	ADC_IN10	PC0
+ADC	IN14	ADC_IN14	PC4
+ADC	IN15	ADC_IN15	PC5
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART1	Hardware Flow Control (RS485)	USART1_DE	PA12
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+USART2	Hardware Flow Control (RS485)	USART2_DE	PA1
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+8	PC0	ADC_IN10	
+15	PA1	USART2_DE	
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+22	PA6	ADC_IN6	
+23	PA7	ADC_IN7	
+24	PC4	ADC_IN14	
+25	PC5	ADC_IN15	
+26	PB0	ADC_IN8	
+27	PB1	ADC_IN9	
+42	PA9	USART1_TX	
+43	PA10	USART1_RX	
+45	PA12	USART1_DE	
+46	PA13	SYS_SWDIO	
+49	PA14	SYS_SWCLK	
+50	PA15	GPIO_Output	
+51	PC10	GPIO_Output	
+52	PC11	GPIO_Output	
+53	PC12	GPIO_Input	
+54	PD2	GPIO_Input	
+55	PB3	GPIO_Input	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : smartsensorbd
+Project Folder : D:\Work\SmartSensor\FW\smartsensorbd
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F0 V1.11.4
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

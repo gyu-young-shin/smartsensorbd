@@ -1,0 +1,2 @@
+../Src/MyTimer.c:23:6:MyTimer_Handler	8	static
+../Src/MyTimer.c:54:6:Timer_Proc	8	static

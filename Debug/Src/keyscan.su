@@ -1,0 +1,2 @@
+../Src/keyscan.c:25:6:keyprocess	8	static
+../Src/keyscan.c:91:6:oputputprocess	8	static

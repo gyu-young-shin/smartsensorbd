@@ -1,0 +1,4 @@
+../Src/RS485_2.c:36:6:USART2_IRQ_Function	32	static
+../Src/RS485_2.c:93:6:GSen485_2_Proc	24	static
+../Src/RS485_2.c:171:6:SendChar2	24	static
+../Src/RS485_2.c:192:6:mprintf2	16	static
